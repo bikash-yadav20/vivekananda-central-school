@@ -18,18 +18,18 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.alpinedigitalschool.edu.pk"),
-    alternates: {
+  alternates: {
     canonical: "/",
   },
 
   title: {
-    default: "Alpine Digital School",
-    template: "%s | Alpine Digital School",
+    default: "Vivekananda Central School",
+    template: "%s | Vivekananda Central School",
   },
   description:
-    "Alpine Digital School provides quality education through modern classrooms, experienced faculty, digital learning, character building, and academic excellence.",
+    "Vivekananda Central School provides quality education through modern classrooms, experienced faculty, digital learning, character building, and academic excellence.",
   keywords: [
-    "Alpine Digital School",
+    "Vivekananda Central School",
     "School in Pakistan",
     "Best School",
     "Digital School",
@@ -40,37 +40,37 @@ export const metadata: Metadata = {
     "Admissions",
     "Quality Education",
     "Modern Education",
-    "School Website"
+    "School Website",
   ],
-  authors: [{ name: "Alpine Digital School" }],
-  creator: "Alpine Digital School",
-  publisher: "Alpine Digital School",
+  authors: [{ name: "Vivekananda Central School" }],
+  creator: "Vivekananda Central School",
+  publisher: "Vivekananda Central School",
 
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Alpine Digital School | A Digital Futuristic School",
+    title: "Vivekananda Central School | A Digital Futuristic School",
     description:
       "A modern institution committed to academic excellence, innovation, and character development.",
     type: "website",
     url: "https://www.alpinedigitalschool.edu.pk",
     locale: "en_US",
-    siteName: "Alpine Digital School",
+    siteName: "Vivekananda Central School",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Alpine Digital School",
+        alt: "Vivekananda Central School",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Alpine Digital School",
+    title: "Vivekananda Central School",
     description:
       "Empowering students through innovation, excellence, and modern education.",
 
@@ -88,7 +88,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} antialiased`}>
         <SiteLayout>{children}</SiteLayout>
         <Toaster position="top-right" />
-      <SiteLayout>{children}</SiteLayout>
+        <SiteLayout>{children}</SiteLayout>
         <Toaster position="top-right" />
         <ChatWidget />
         <StructuredData />
