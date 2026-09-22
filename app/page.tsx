@@ -12,25 +12,19 @@ import Hero from "@/components/home/Hero";
 import StatsSection from "@/components/home/StatsSection";
 import PrincipalMessage from "@/components/home/PrincipalMessage";
 
-const SchoolVideo = dynamic(
-  () => import("@/components/home/SchoolVideo")
-);
+const SchoolVideo = dynamic(() => import("@/components/home/SchoolVideo"));
 
-const LatestNotices = dynamic(
-  () => import("@/components/home/LatestNotices")
-);
+const LatestNotices = dynamic(() => import("@/components/home/LatestNotices"));
 
 const StudentsAchievements = dynamic(
-  () => import("@/components/home/StudentsAchievements")
+  () => import("@/components/home/StudentsAchievements"),
 );
 
 const TestimonialSection = dynamic(
-  () => import("@/components/home/TestimonialSection")
+  () => import("@/components/home/TestimonialSection"),
 );
 
-const CTASection = dynamic(
-  () => import("@/components/home/CTASection")
-);
+const CTASection = dynamic(() => import("@/components/home/CTASection"));
 export default function HomePage() {
   return (
     <main>
@@ -44,11 +38,10 @@ export default function HomePage() {
       <CTASection />
 
       <section className="relative overflow-hidden bg-[#faf9f6] py-32">
+        {/* Background Glow */}
 
-  {/* Background Glow */}
-
-  <div
-    className="
+        <div
+          className="
       absolute
       -left-40
       top-20
@@ -58,10 +51,10 @@ export default function HomePage() {
       bg-yellow-400/10
       blur-[150px]
     "
-  />
+        />
 
-  <div
-    className="
+        <div
+          className="
       absolute
       -right-40
       bottom-0
@@ -71,15 +64,12 @@ export default function HomePage() {
       bg-blue-900/10
       blur-[170px]
     "
-  />
+        />
 
-
-  <Container>
-
-    <RevealOnScroll>
-
-      <div
-        className="
+        <Container>
+          <RevealOnScroll>
+            <div
+              className="
           grid
           gap-12
           overflow-hidden
@@ -92,13 +82,11 @@ export default function HomePage() {
           lg:grid-cols-[0.9fr_1.1fr]
           lg:p-14
         "
-      >
+            >
+              {/* LEFT INFORMATION PANEL */}
 
-
-        {/* LEFT INFORMATION PANEL */}
-
-        <div
-          className="
+              <div
+                className="
             relative
             overflow-hidden
             rounded-[2.5rem]
@@ -109,13 +97,11 @@ export default function HomePage() {
             p-10
             text-white
           "
-        >
+              >
+                {/* Glow */}
 
-
-          {/* Glow */}
-
-          <div
-            className="
+                <div
+                  className="
               absolute
               -right-20
               -top-20
@@ -125,14 +111,11 @@ export default function HomePage() {
               bg-yellow-400/20
               blur-[100px]
             "
-          />
+                />
 
-
-          <div className="relative z-10">
-
-
-            <div
-              className="
+                <div className="relative z-10">
+                  <div
+                    className="
                 inline-flex
                 rounded-full
                 border
@@ -144,61 +127,47 @@ export default function HomePage() {
                 font-semibold
                 text-yellow-300
               "
-            >
-              Admission Open
-            </div>
+                  >
+                    Admission Open
+                  </div>
 
-
-
-            <h2
-              className="
+                  <h2
+                    className="
                 mt-8
                 text-4xl
                 font-black
                 leading-tight
                 lg:text-5xl
               "
-            >
-              Begin Your Child&apos;s
-              
-              <span className="block text-yellow-400">
-                Bright Future
-              </span>
+                  >
+                    Begin Your Child&apos;s
+                    <span className="block text-yellow-400">Bright Future</span>
+                  </h2>
 
-            </h2>
-
-
-
-            <p
-              className="
+                  <p
+                    className="
                 mt-6
                 leading-8
                 text-slate-300
               "
-            >
-              Join Alpine Digital School and provide your child with
-              quality education, modern learning facilities, and a
-              future-focused academic environment.
-            </p>
+                  >
+                    Join Vivekananda Central School and provide your child with
+                    quality education, modern learning facilities, and a
+                    future-focused academic environment.
+                  </p>
 
+                  {/* Benefits */}
 
-
-
-            {/* Benefits */}
-
-            <div className="mt-10 space-y-5">
-
-
-              {[
-                "Experienced Faculty Members",
-                "Modern Digital Classrooms",
-                "Activity Based Learning",
-                "Safe & Supportive Environment",
-              ].map((item)=>(
-                
-                <div
-                  key={item}
-                  className="
+                  <div className="mt-10 space-y-5">
+                    {[
+                      "Experienced Faculty Members",
+                      "Modern Digital Classrooms",
+                      "Activity Based Learning",
+                      "Safe & Supportive Environment",
+                    ].map((item) => (
+                      <div
+                        key={item}
+                        className="
                     flex
                     items-center
                     gap-4
@@ -210,220 +179,146 @@ export default function HomePage() {
                     py-4
                     backdrop-blur-xl
                   "
-                >
-
-                  <div
-                    className="
+                      >
+                        <div
+                          className="
                       h-3
                       w-3
                       rounded-full
                       bg-yellow-400
                     "
-                  />
+                        />
 
-                  <p className="font-medium text-slate-200">
-                    {item}
-                  </p>
+                        <p className="font-medium text-slate-200">{item}</p>
+                      </div>
+                    ))}
+                  </div>
 
-                </div>
+                  {/* Stats */}
 
-              ))}
-
-
-            </div>
-
-
-
-
-            {/* Stats */}
-
-            <div
-              className="
+                  <div
+                    className="
                 mt-12
                 grid
                 grid-cols-2
                 gap-5
               "
-            >
-
-              <div
-                className="
+                  >
+                    <div
+                      className="
                   rounded-2xl
                   border
                   border-white/10
                   bg-white/5
                   p-5
                 "
-              >
+                    >
+                      <p className="text-3xl font-black text-yellow-400">6+</p>
 
-                <p className="text-3xl font-black text-yellow-400">
-                  6+
-                </p>
+                      <p className="mt-2 text-sm text-slate-300">
+                        Years Excellence
+                      </p>
+                    </div>
 
-                <p className="mt-2 text-sm text-slate-300">
-                  Years Excellence
-                </p>
-
-              </div>
-
-
-              <div
-                className="
+                    <div
+                      className="
                   rounded-2xl
                   border
                   border-white/10
                   bg-white/5
                   p-5
                 "
-              >
+                    >
+                      <p className="text-3xl font-black text-yellow-400">
+                        400+
+                      </p>
 
-                <p className="text-3xl font-black text-yellow-400">
-                  400+
-                </p>
-
-                <p className="mt-2 text-sm text-slate-300">
-                  Successful Students
-                </p>
-
+                      <p className="mt-2 text-sm text-slate-300">
+                        Successful Students
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
+              {/* FORM AREA */}
 
-            </div>
-
-
-          </div>
-
-
-        </div>
-
-
-
-
-
-        {/* FORM AREA */}
-
-        <div className="flex items-center">
-
-          <div className="w-full">
-
-
-            <div className="mb-10">
-
-
-              <h3
-                className="
+              <div className="flex items-center">
+                <div className="w-full">
+                  <div className="mb-10">
+                    <h3
+                      className="
                   text-4xl
                   font-black
                   text-[#071A33]
                 "
-              >
-                Admission Inquiry
-              </h3>
+                    >
+                      Admission Inquiry
+                    </h3>
 
-
-              <p
-                className="
+                    <p
+                      className="
                   mt-4
                   text-lg
                   leading-8
                   text-slate-600
                 "
-              >
-                Submit your details and our admission team will contact
-                you shortly.
-              </p>
+                    >
+                      Submit your details and our admission team will contact
+                      you shortly.
+                    </p>
+                  </div>
 
+                  <FormWrapper title="" description="">
+                    <SuccessMessage message="Your inquiry will be reviewed by our admission team." />
 
-            </div>
+                    <div className="grid gap-5 md:grid-cols-2">
+                      <FormInput
+                        label="Parent Name"
+                        placeholder="Enter parent name"
+                      />
 
+                      <FormInput
+                        label="Student Name"
+                        placeholder="Enter student name"
+                      />
+                    </div>
 
+                    <FormSelect
+                      label="Applying Class"
+                      options={[
+                        {
+                          label: "Select Class",
+                          value: "",
+                        },
+                        {
+                          label: "Primary",
+                          value: "primary",
+                        },
+                        {
+                          label: "Middle",
+                          value: "middle",
+                        },
+                        {
+                          label: "Secondary",
+                          value: "secondary",
+                        },
+                      ]}
+                    />
 
-            <FormWrapper
-              title=""
-              description=""
-            >
+                    <FormTextarea
+                      label="Message"
+                      placeholder="Write your message"
+                    />
 
-
-              <SuccessMessage 
-                message="Your inquiry will be reviewed by our admission team."
-              />
-
-
-              <div className="grid gap-5 md:grid-cols-2">
-
-
-                <FormInput
-                  label="Parent Name"
-                  placeholder="Enter parent name"
-                />
-
-
-                <FormInput
-                  label="Student Name"
-                  placeholder="Enter student name"
-                />
-
-
+                    <SubmitButton>Submit Admission Inquiry</SubmitButton>
+                  </FormWrapper>
+                </div>
               </div>
-
-
-
-              <FormSelect
-                label="Applying Class"
-                options={[
-                  {
-                    label:"Select Class",
-                    value:""
-                  },
-                  {
-                    label:"Primary",
-                    value:"primary"
-                  },
-                  {
-                    label:"Middle",
-                    value:"middle"
-                  },
-                  {
-                    label:"Secondary",
-                    value:"secondary"
-                  }
-                ]}
-              />
-
-
-
-              <FormTextarea
-                label="Message"
-                placeholder="Write your message"
-              />
-
-
-
-              <SubmitButton>
-                Submit Admission Inquiry
-              </SubmitButton>
-
-
-            </FormWrapper>
-
-
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-
-
-    </RevealOnScroll>
-
-
-  </Container>
-
-
-</section>
+            </div>
+          </RevealOnScroll>
+        </Container>
+      </section>
       <ChatWidget />
     </main>
   );

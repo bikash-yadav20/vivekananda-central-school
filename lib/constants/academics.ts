@@ -45,58 +45,57 @@ export const academicPrograms = [
     ],
     image: "/images/gallery/pre_school.webp",
   },
-{
-  icon: BookOpen,
-  title: "Junior School Program",
-  slug: "junior-school",
-  level: "Grades 1–8",
-  description:
-    "Our Junior School Program provides a comprehensive learning experience that strengthens academic foundations while fostering creativity, critical thinking, leadership, and responsible citizenship in a supportive learning environment.",
-  subjects: [
-    "English",
-    "Assamese",
-    "Mathematics",
-    "General Science",
-    "Computer Science",
-    "Social Studies",
-    "Social Studies",
-    "Arts & Creative Activities",
-  ],
-  outcomes: [
-    "Strong foundation in core academic subjects",
-    "Enhanced critical thinking and problem-solving skills",
-    "Effective communication and presentation abilities",
-    "Confidence in using technology for learning",
-    "Development of teamwork, leadership, and responsibility",
-    "Preparation for secondary education and future success",
+  {
+    icon: BookOpen,
+    title: "Junior School Program",
+    slug: "junior-school",
+    level: "Grades 1–8",
+    description:
+      "Our Junior School Program provides a comprehensive learning experience that strengthens academic foundations while fostering creativity, critical thinking, leadership, and responsible citizenship in a supportive learning environment.",
+    subjects: [
+      "English",
+      "Assamese",
+      "Mathematics",
+      "General Science",
+      "Computer Science",
+      "Social Studies",
+      "Social Studies",
+      "Arts & Creative Activities",
+    ],
+    outcomes: [
+      "Strong foundation in core academic subjects",
+      "Enhanced critical thinking and problem-solving skills",
+      "Effective communication and presentation abilities",
+      "Confidence in using technology for learning",
+      "Development of teamwork, leadership, and responsibility",
+      "Preparation for secondary education and future success",
     ],
     image: "/images/gallery/junior_school.webp",
   },
   {
-  icon: GraduationCap,
-  title: "Senior School Program",
-  slug: "senior-school",
-  level: "Grades 9–10",
-  description:
-    "Our Senior School Program prepares students for academic excellence through conceptual learning, practical application, board examination readiness, and career-focused guidance in a disciplined and supportive environment.",
-  subjects: [
-    "English",
-    "Assamese",
-    "Mathematics",
-    "Physics",
-    "Chemistry",
-    "Biology",
-    "Computer Science",
-    "Pakistan Studies",
-    "Social Studies",
-  ],
-  outcomes: [
-    "Excellent preparation for board examinations",
-    "Strong conceptual understanding of science and mathematics",
-    "Hands-on experience through laboratory work and practical projects",
-    "Improved analytical, critical thinking, and problem-solving skills",
-    "Career awareness and informed academic planning",
-    "Confidence, leadership, and readiness for higher education",
+    icon: GraduationCap,
+    title: "Senior School Program",
+    slug: "senior-school",
+    level: "Grades 9–10",
+    description:
+      "Our Senior School Program prepares students for academic excellence through conceptual learning, practical application, board examination readiness, and career-focused guidance in a disciplined and supportive environment.",
+    subjects: [
+      "English",
+      "Assamese",
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Computer Science",
+      "Social Studies",
+    ],
+    outcomes: [
+      "Excellent preparation for board examinations",
+      "Strong conceptual understanding of science and mathematics",
+      "Hands-on experience through laboratory work and practical projects",
+      "Improved analytical, critical thinking, and problem-solving skills",
+      "Career awareness and informed academic planning",
+      "Confidence, leadership, and readiness for higher education",
     ],
     image: "/images/gallery/senior_school.webp",
   },
@@ -104,84 +103,84 @@ export const academicPrograms = [
 
 export const departmentsData = [
   {
-  icon: Brain,
-  title: "IT, STEM & Robotics Department",
-  slug: "it-stem-robotics",
-  shortName: "IT & STEM",
-  overview:
-    "The IT, STEM & Robotics Department equips students with future-ready digital and technical skills through computer education, artificial intelligence, coding, robotics, engineering design, and hands-on STEM learning. Students develop creativity, critical thinking, innovation, and problem-solving abilities in a technology-driven environment.",
+    icon: Brain,
+    title: "IT, STEM & Robotics Department",
+    slug: "it-stem-robotics",
+    shortName: "IT & STEM",
+    overview:
+      "The IT, STEM & Robotics Department equips students with future-ready digital and technical skills through computer education, artificial intelligence, coding, robotics, engineering design, and hands-on STEM learning. Students develop creativity, critical thinking, innovation, and problem-solving abilities in a technology-driven environment.",
 
-  focusAreas: [
-    "Computer Science",
-    "Artificial Intelligence",
-    "Coding & Programming",
-    "Digital Literacy",
-    "STEM Education",
-    "Robotics",
-    "Arduino & Sensors",
-    "Engineering Design",
-    "Innovation & Problem Solving",
-  ],
+    focusAreas: [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Coding & Programming",
+      "Digital Literacy",
+      "STEM Education",
+      "Robotics",
+      "Arduino & Sensors",
+      "Engineering Design",
+      "Innovation & Problem Solving",
+    ],
 
-  teachers: [
-    {
-      name: "Fizza Jabeen",
-      designation: "IT Teacher & AI Instructor",
-      qualification: "BS Computer Science, BS Software Engineering",
-      experience: "3+ Years",
-      subjects: [
-        "Computer Science",
-        "Artificial Intelligence",
-        "Programming",
-        "STEM",
-        "Robotics",
-      ],
-      image: "/images/faculty/Fizza.webp",
-    },
-    {
-      name: "Saira Zahid",
-      designation: "IT Developer & Teacher",
-      qualification: "ADP(CS), BS Information Technology",
-      experience: "1+ Year",
-      subjects: [
-        "STEM",
-        "Engineering Design",
-        "Project-Based Learning",
-      ],
-      image: "/images/faculty/SairaZahid.webp",
-    },
-    {
-      name: "Saira Aslam",
-      designation: "IT Developer & Teacher",
-      qualification: "BS Information Technology, B.Ed",
-      experience: "4+ Years",
-      subjects: [
-        "Robotics",
-        "Arduino",
-        "Electronics",
-      ],
-      image: "/images/faculty/SairaAslam.webp",
-    },
-  ],
+    teachers: [
+      {
+        name: "Pooja Kalita",
+        designation: "IT Teacher & AI Instructor",
+        qualification: "BS Computer Science, BS Software Engineering",
+        experience: "3+ Years",
+        subjects: [
+          "Computer Science",
+          "Artificial Intelligence",
+          "Programming",
+          "STEM",
+          "Robotics",
+        ],
+        image: "/images/faculty/Pooja.webp",
+      },
+      {
+        name: "Sneha Sharma",
+        designation: "IT Developer & Teacher",
+        qualification: "ADP(CS), BS Information Technology",
+        experience: "1+ Year",
+        subjects: [
+          "STEM",
+          "Engineering Design",
+          "Project-Based Learning",
+        ],
+        image: "/images/faculty/SnehaSharma.webp",
+      },
+      {
+        name: "Swati Verma",
+        designation: "IT Developer & Teacher",
+        qualification: "BS Information Technology, B.Ed",
+        experience: "4+ Years",
+        subjects: [
+          "Robotics",
+          "Arduino",
+          "Electronics",
+        ],
+        image: "/images/faculty/SwatiVerma.webp",
+      },
+    ],
 
-  gallery: [
-    "/images/gallery/IT_1.webp",
-    "/images/gallery/IT_2.webp",
-    "/images/gallery/IT_3.webp",
-  ],
+    gallery: [
+      "/images/gallery/IT_1.webp",
+      "/images/gallery/IT_2.webp",
+      "/images/gallery/IT_3.webp",
+    ],
 
-  activities: [
-    "Coding workshops",
-    "AI & Prompt Engineering activities",
-    "Scratch programming",
-    "Website and app development",
-    "STEM innovation projects",
-    "Science and engineering challenges",
-    "Arduino programming",
-    "Robotics competitions",
-    "Electronics and sensor projects",
-    "Hackathons & innovation fairs",
-  ],
+    activities: [
+      "Coding workshops",
+      "AI & Prompt Engineering activities",
+      "Scratch programming",
+      "Website and app development",
+      "STEM innovation projects",
+      "Science and engineering challenges",
+      "Arduino programming",
+      "Robotics competitions",
+      "Electronics and sensor projects",
+      "Hackathons & innovation fairs",
+    ],
   },
   {
     icon: FlaskConical,
@@ -200,28 +199,28 @@ export const departmentsData = [
     ],
     teachers: [
       {
-        name: "Mahpara",
+        name: "Meenakshi Das",
         designation: "Science Teacher",
         qualification: "BS Biotechnology",
         experience: "3+ Years",
         subjects: ["Chemistry", "Biology"],
-        image: "/images/faculty/Mahpara.webp",
+        image: "/images/faculty/Meenakshi.webp",
       },
       {
-        name: "Iqra Munawar",
+        name: "Isha Malhotra",
         designation: "Science Teacher",
         qualification: "M.Phill Analytical Chemistry",
         experience: "2+ Years",
         subjects: ["Chemistry", "Science"],
-        image: "/images/faculty/Iqra.webp",
+        image: "/images/faculty/Isha.webp",
       },
       {
-        name: "Maryam Fatima",
+        name: "Monika Gogoi",
         designation: "Science Teacher",
         qualification: "M.Sc. Botany",
         experience: "1 Year",
         subjects: ["Biology", "General Science"],
-        image: "/images/faculty/Maryam.webp",
+        image: "/images/faculty/Monika.webp",
       },
     ],
     gallery: [
@@ -254,20 +253,20 @@ export const departmentsData = [
     ],
     teachers: [
       {
-        name: "Yasir Ali",
+        name: "Rajesh Sharma",
         designation: "Mathematics Teacher",
         qualification: "M.Sc Mathematics",
         experience: "12+ Years",
         subjects: ["Mathematics", "Algebra"],
-        image: "/images/faculty/Yasir.webp",
+        image: "/images/faculty/Rajesh.webp",
       },
       {
-        name: "Rashida Bashir",
+        name: "Ritu Baruah",
         designation: "Mathematics Teacher",
         qualification: "M.Phill Mathematics",
         experience: "2+ Years",
         subjects: ["Mathematics", "Algebra"],
-        image: "/images/faculty/Rashida.webp",
+        image: "/images/faculty/Ritu.webp",
       },
     ],
     gallery: [
@@ -300,20 +299,20 @@ export const departmentsData = [
     ],
     teachers: [
       {
-        name: "Kaleem Amin",
+        name: "Karan Anand",
         designation: "Spoken English Trainer",
         qualification: "M.A English, B.Edu",
         experience: "10+ Years",
         subjects: ["Spoken English", "Communication Skills"],
-        image: "/images/faculty/Kaleem.webp",
+        image: "/images/faculty/Karan.webp",
       },
       {
-        name: "Mehwish Khalid",
+        name: "Manasi Saikia",
         designation: "Spoken English Trainer",
         qualification: "BS English Literature",
         experience: "2+ Years",
         subjects: ["Spoken English", "Communication Skills"],
-        image: "/images/faculty/Mehwish.webp",
+        image: "/images/faculty/Manasi.webp",
       },
     ],
     gallery: [
@@ -346,12 +345,12 @@ export const departmentsData = [
     ],
     teachers: [
       {
-        name: "Asma Khawar",
+        name: "Ankita Kapoor",
         designation: "English Teacher",
         qualification: "BS English",
         experience: "3+ Years",
         subjects: ["English Grammar", "Creative Writing"],
-        image: "/images/faculty/Asima.webp",
+        image: "/images/faculty/Ankita.webp",
       },
     ],
     gallery: [
@@ -373,7 +372,7 @@ export const departmentsData = [
     slug: "Assamese",
     shortName: "Assamese",
     overview:
-      "The Assamese Department nurtures a deep appreciation for the national language by developing reading, writing, grammar, literature, and communication skills while promoting creativity, critical thinking, and cultural values.",
+      "The Assamese Department nurtures a deep appreciation for the state language by developing reading, writing, grammar, literature, and communication skills while promoting creativity, critical thinking, and cultural values.",
     focusAreas: [
       "Assamese Grammar",
       "Reading",
@@ -384,12 +383,12 @@ export const departmentsData = [
     ],
     teachers: [
       {
-        name: "Aqsa Mehboob",
+        name: "Anamika Bora",
         designation: "Assamese Teacher",
         qualification: "MA Assamese, B.Ed",
         experience: "7+ Years",
         subjects: ["Assamese", "Poetry"],
-        image: "/images/faculty/Aqsa.webp",
+        image: "/images/faculty/Anamika.webp",
       },
     ],
     gallery: [
@@ -405,7 +404,8 @@ export const departmentsData = [
       "Reading activities",
     ],
   },
-]
+];
+
 export const academicsCta = {
   title: "Explore Our Academic Programs",
   description:
